@@ -1,0 +1,21 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 18px; 
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.layout {
+  margin-bottom: 50px;
+}
+
+.msg {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}

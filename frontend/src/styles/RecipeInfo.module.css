@@ -1,0 +1,142 @@
+.layout {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1068px) {
+  .layout {
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout {
+    width: 70%;
+  }
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 1068px) {
+  .top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.bigImage {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .bigImage {
+    width: 80%;
+    height: 80%;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bigImage {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.info_block {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .info_block {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .info_block {
+    width: 50%;
+  }
+}
+
+
+.name {
+  font-size: 36px;
+  color: rgb(109, 109, 7);
+  margin: 0;
+}
+
+.country {
+  margin: 0;
+  font-size: 18px;
+  text-decoration: underline;
+  color: black;
+}
+
+.instructions {
+  font-size: 16px;
+  padding: 18px;
+}
+
+@media (max-width: 768px) {
+  .instructions {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructions {
+    width: 50%;
+  }
+}
+
+.text {
+  text-decoration: none;
+  color: black;
+}
+
+.text:hover {
+  color: blueviolet;
+}

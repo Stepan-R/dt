@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1268px) {
+  .layout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
